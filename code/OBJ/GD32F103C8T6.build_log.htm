@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1111 1111, 3113, LIC=Y2BSB-257R5-59KGZ-J6QZL-XGR9H-WK78E
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain Path:  E:\Keil_v52\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+N:\PROJECT_KAFA\LQF\GD32_72M_C8T6_int_20171020\USER\USART.uvprojx
+Project File Date:  09/26/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\Keil_v52\ARM\ARMCC\Bin'
+Build target 'gd32_io'
+compiling led.c...
+compiling timer.c...
+compiling exti.c...
+compiling pwm.c...
+..\HARDWARE\PWM\pwm.c(146): warning:  #177-D: variable "capture"  was declared but never referenced
+     u16 capture;
+..\HARDWARE\PWM\pwm.c: 1 warning, 0 errors
+compiling main.c...
+main.c(189): warning:  #177-D: variable "t"  was declared but never referenced
+   	u8 t,len;  
+main.c(189): warning:  #177-D: variable "len"  was declared but never referenced
+   	u8 t,len;  
+main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=11136 RO-data=336 RW-data=104 ZI-data=1832  
+FromELF: creating hex file...
+"..\OBJ\GD32F103C8T6.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.GD32F1xx_DFP.1.1.0.pack
+                Keil.GD32F1xx_DFP.1.1.0
+                GigaDevice GD32F1 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_gd32_io
+  e:\Keil_v52\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>

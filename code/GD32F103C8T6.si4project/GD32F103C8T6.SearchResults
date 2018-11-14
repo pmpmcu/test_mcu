@@ -1,0 +1,4 @@
+---- can_pid_table Matches (3 in 3 files) ----
+can.h (HARDWARE\CAN) line 47 : u8 can_pid_table[4]={Engine_load,Engine_RPM,Velicele_speed,Throttle_position};
+GD32F103C8T6_int.build_log.htm (OBJ) line 67 : ..\OBJ\GD32F103C8T6_int.axf: Error: L6200E: Symbol can_pid_table multiply defined (by can.o and main.o).
+main in main.c (USER) : 			Can_ISO15765_Send(can_pid_table[can_pid_cnt++],Can_iso15765_Send_id,8);
