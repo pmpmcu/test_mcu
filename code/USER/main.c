@@ -70,11 +70,19 @@ void TIM3_DELAY_MS_(u16 times)
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2); //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
 	//uart_init(115200);	 //串口初始化为115200
 	uart1_init(115200);
+	
 	printf("uart1_init_115200\r\n");
 	printf("uart1_init_115200\r\n");
 	printf("uart1_init_115200\r\n");
+	
+	
 	uart2_init(115200);
 	printf("uart2_init_115200\r\n");
+	printf("uart2_init_115200\r\n");
+	printf("uart2_init_115200\r\n");
+	printf("uart2_init_115200\r\n");
+	printf("uart2_init_115200\r\n");
+	
 	USART_SendData(USART2, 99);
 	while (USART_GetFlagStatus(USART2, USART_FLAG_TC) == RESET);
 	
