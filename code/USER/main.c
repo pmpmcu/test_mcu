@@ -75,6 +75,7 @@ void TIM3_DELAY_MS_(u16 times)
 	printf("uart1_init_115200\r\n");
 	printf("uart1_init_115200\r\n");
 	
+	printf("git_test\r\n");
 	
 	uart2_init(115200);
 	printf("uart2_init_115200\r\n");
@@ -82,6 +83,7 @@ void TIM3_DELAY_MS_(u16 times)
 	printf("uart2_init_115200\r\n");
 	printf("uart2_init_115200\r\n");
 	printf("uart2_init_115200\r\n");
+	
 	
 	USART_SendData(USART2, 99);
 	while (USART_GetFlagStatus(USART2, USART_FLAG_TC) == RESET);
